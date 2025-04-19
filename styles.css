@@ -297,18 +297,18 @@ header ul{
     width: 100%;
     height: 6vh;
     font-size: 1.8rem;
-    padding-left: 2.5%;
     padding-bottom: 1%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .midrand{
     font-size: 1.1rem;
     color: rgb(82, 82, 82);
 }
 .rightaa{
-    width: 25rem;
-    height: 47vh;
+    width: 23rem;
+    height: 42vh;
     margin: 2%;
     box-shadow: 1px 1px 10px 0px rgb(15, 15, 29);
     border-radius: 20px;

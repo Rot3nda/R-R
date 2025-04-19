@@ -31,7 +31,7 @@
     <div class="h3">
         <div><img src="icons8-heart-50.png"></div>
         <div><img src="icons8-notification-50.png"></div>
-        <div><img id="userpic" src="icons8-male-user-50.png"></div>
+        <div onclick="userProfileOn()"><img id="userpic" src="icons8-male-user-50.png"></div>
     </div>
  </header> 
  
@@ -60,7 +60,7 @@
  </div>
 
  <div id="right">
-    <div class="righth"><p><span style="font-weight: bold; color: rgb(6, 79, 43);">175 results</span> <span class="midrand">in midrand, SA</span></p></div>
+    <div class="righth"><p><span style="font-weight: bold; color: rgb(6, 79, 43); color: orangered;">175 results</span> <span class="midrand">in midrand, SA</span></p></div>
     <div class="righta">
       
        <div class="rightaa" id="rightaa">
@@ -159,9 +159,30 @@
           </div>
         </div>
        <footer>
-         <div class="top"></div>
+         <div class="top">
+            <div class="t1">
+               <h1 style="color: white;">South Africa</h1>
+               <ul>
+                  <li style="text-decoration: underline;">Gauteng</li>
+                  <li>Eastern Cape</li>
+                  <li>Free State</li>
+                  <li>Limpopo</li>
+                  <li>Kwazulu-natal</li>
+                  <li>Mpumalanga</li>
+                  <li>Northern Cape</li>
+                  <li>North West</li>
+                  <li>Western Cape</li>
+               </ul>
+            </div> 
+            <div class="t2">
+               <p>At <span class="rr">R&R Homes</span> we help you find the perfect place for you</p>
+            </div>
+            <div class="t3">
+               <img src="SA.PNG">
+            </div>
+         </div>
          <div class="bottom">
-            <div class="b1"><img src="icons8-real-estate-48.png"><p>R&R Homes         <span style="font-size: 80%;">&copy;copyright 2025</span></p></div>
+            <div class="b1"><img src="icons8-real-estate-48.png"><p>R&R Homes<span style="font-size: 80%;">&copy;copyright 2025</span></p></div>
             <div class="b2">
                <img src="icons8-whatsapp-50.png">
                <img src="icons8-instagram-50.png">
@@ -172,6 +193,11 @@
          </div>
        </footer>  
     </div>
+ </div>
+
+ <div class="profile" id="profile">
+   <div class="x" onclick="userProfileOff()"><img id="close" src="icons8-close-64.png"></div>
+   <div class="info"></div>
  </div>
 
  </section>  

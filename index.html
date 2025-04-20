@@ -39,9 +39,10 @@
  <body>  
                         <!-- Second header (Search, findAgent,aboutUs)-->                 
 <section id="head2">
-   <div id="s"><p>Search</p><img id="h2ia" src="icons8-search-50.png"></div>
+   <div id="s"><input id="searchBar" type="text" value="Search"><img id="h2ia" src="icons8-search-50.png"></div>
    <p class="ph" style="color: white;border-left: 1px solid rgb(212, 212, 212); border-right: 1px solid rgb(210, 210, 210) ;">Find an Agent</p>
    <p class="ph2">About Us</p>
+   <button type="button">Log In</button>
 </section>
                         <!-- Left side pop up -->
 <div class="pop" id="pop" onclick="sideOn()">
@@ -52,17 +53,44 @@
                         <!-- Left side filter (price,type,location)-->
  <div id="left">
     <div class="x" onclick="sideOff()"><img id="close" src="icons8-close-64.png"></div>
-    <div class="lefta">
-        <div class="search"><p>Price</p><div>max price<img src="icons8-drop-down-30.png"></div></div>
-        <div class="search"><p>Type</p><div>type<img src="icons8-drop-down-32.png"></div></div>
-        <div class="search"><p>Location</p><div>location<img src="icons8-drop-down-32.png"></div></div>
+    <form class="lefta">
+        <div class="search"><p>Max price</p><div>
+         <select id="location" name="location">
+         <option value="volvo">select max..</option>
+         <option value="saab">R2000</option>
+         <option value="fiat">R4000</option>
+         <option value="audi">R6000</option>
+         <option value="volvo">R8000</option>
+         <option value="saab">R10 000</option>
+         <option value="fiat">R12 000</option>
+         <option value="audi">R14 000+</option>   
+         </select></div></div>
+
+        <div class="search"><p>Type</p><div><select id="location" name="location">
+         <option value="volvo">select...</option>
+         <option value="saab">Apartment</option>
+         <option value="fiat">House</option>
+       </select></div></div>
+
+        <div class="search"><p>Location</p><div>
+         <select id="location" name="location">
+         <option value="volvo">select province..</option>
+         <option value="saab">Gauteng</option>
+         <option value="fiat">Free state</option>
+         <option value="audi">Mpumalanga</option>
+         <option value="volvo">Limpopo</option>
+         <option value="saab">Nothern cape</option>
+         <option value="fiat">Easten cape</option>
+         <option value="audi">North west</option>   
+         <option value="volvo">Kwazulu-natal</option>  
+       </select></div></div>
         <div id="s4" class="search"><img src="icons8-location-50.png"><p>midrand, SA</p></div>
-    </div>
+    </form>
  </div>
                       <!-- Right side (property section)-->
  <div id="right">                                             <!--Property results -->
     <div class="righth"><p><span style="font-weight: bold; color: rgb(6, 79, 43); color: orangered;">175 results</span> <span class="midrand">in midrand, SA</span></p></div>
-                     <!-- inner section with property-->
+                     <!-- inner section with property-->                  
     <div class="righta">
  <!--///////////////////////////////////////////////////////////////////////////////////////////// One of many Properties -->     
        <div class="rightaa" id="rightaa">
@@ -160,6 +188,7 @@
              <h1>R1,950 674 for sale</h1> <p>3025 county highway<br>nochester. It 1404L</p>
           </div>
         </div>
+
                            <!-- Footer -->
        <footer>
                               <!-- Top part-->                  

@@ -62,6 +62,7 @@ header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.1rem;
     padding: 6px;
+    margin-right: 3%;
 }
 
 .ph:hover,.ph2:hover{
@@ -99,8 +100,8 @@ header{
 }
 
 #close{
-    width: 26px;
-    height: 23px;
+    width: 25px;
+    height: 22px;
 }
 
 .search{
@@ -159,13 +160,17 @@ header{
     justify-content: left;
     align-items: center;
     padding-left: 1%;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .h1 img{
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+.hr{
+    color: orangered;
+    font-size: 1.8rem;
 }
 .h2{
     width: 60%;
@@ -201,16 +206,19 @@ header{
 
 .h3 div:hover{
     background-color: rgb(46, 189, 46);
-    background-color: rgb(243, 85, 28);
+    background-color: rgb(255, 108, 54);
 }
+
 .h3 img{
     width: 21px;
     height: 21px;
 }
+
 #userpic{
     width: 100%;
     height: 100%;
 }
+
 header li{
     list-style-type: none;
     border-radius: 20px;
@@ -223,14 +231,18 @@ header li{
 }
 
 header li:hover{
-    background-color: rgb(37, 148, 37);
-    color: white;
-    font-weight: bold;
+    height: 5vh;
+    font-weight: bolder;
+    background-color: orangered;
+    border-radius: 20px;
+    border-bottom: 2px solid orangered;
+    border-top: 2px solid orangered;
 }
 
 .l1{
     color: white;
     background-color: rgb(32, 131, 32);
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 header ul{
@@ -258,8 +270,8 @@ header ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1.4rem;
+    height: 1.4rem;
     border-radius: 100%;   
     margin: 6px 10px;
     border: 2px solid green;
@@ -484,7 +496,7 @@ footer{
     height: 20px;
 }
 .b2{
-    width: 30%;
+    width: 40%;
     height: 9vh;
     display: flex;
     justify-content: left;
@@ -493,14 +505,19 @@ footer{
 .b2 img{
     width: 20px;
     height: 20px;
-    margin: 3%;
+    margin: 2%;
+    translate: transform 0.5s ease;
 }
+.b2 img:hover{
+    transform: scale(1.5);
+}
+
 .b2 p{
     color: white;
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
     margin-left: 10%;
-    padding: 8px;
+    padding: 6px;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -512,15 +529,134 @@ footer{
     align-items:start;
     justify-content:left;
     flex-direction: column;
+    border-radius: 80px;
+    border: 2px dotted rgb(176, 47, 0);
     display: none;
 }
 
-.info{
-    width: 75%;
-    height: 65vh;
-    margin: auto;
-    box-shadow: 2px 2px 2px 2px rgb(37, 37, 37);
-    background-color: rgb(250, 250, 250);
+.name{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.inProf{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: rgb(48, 76, 76);
+}
+
+.mid{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid img{
+    width: 40px;
+    height: 40px;
+    margin: 10%;
+}
+
+
+
+.fav,.rate{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 18vh;
+}
+
+.fav{
+    border-radius: 10px;
+    background-color: rgb(134, 176, 134);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.fav:hover{
+  background-color: rgb(177, 71, 33);
+  color: white;
+}
+
+.ratepic{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratepic img{
+    width: 25px;
+    height: 25px;
+    translate: transform 1s ease;
+}
+
+.ratepic img:hover{
+    transform: scale(1.5);
+}
+
+.logout{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout button{
+    width: 35%;
+    height: 4.5vh;
+    background-color: rgb(27, 27, 55);
+    color: white;
+    border-radius: 20px;
+    translate: transform 3.5s ease;
+}
+
+.logout button:hover{
+    transform: scale(1.04);
+}
+
+.notification{
+    width: 20rem;
+    height: 25vh;
+    background-color: rgb(87, 117, 87);
+    box-shadow: 2px 2px 12px 12px rgb(23, 52, 41);
+    position: absolute;
+    top: 11vh;
+    right: 5vh;
+    border-radius: 10px;
+    display: none;
+}
+
+.not{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.not img{
+    width: 23px;
+    height: 23px;
+    margin-right: 3%;
 }
 
 ::-webkit-scrollbar{

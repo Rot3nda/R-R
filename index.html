@@ -9,46 +9,47 @@
     <script src="scripts.js"></script>
 </head>
 
-
+                        <!-- header -->
  <header>
-
+                        <!-- Top left R&R symbol -->
     <div class="h1">
         <img src="icons8-real-estate-50.png">
-        <p>R&R Homes</p>
+        <p><Span class="hr">R&R</Span> Homes</p>
     </div>
-
+                        <!-- Top Middle filter panel (All,Rent,Buy,Sell) -->
     <div class="h2">
         <div class="h2a">
           <ul> 
-            <li class="l1">All</li>
-            <li>Rent</li>
-            <li>Buy</li>
-            <li>Sell</li>
+            <li class="l1" id="l1" onclick="allOn()">All</li>
+            <li id="l2" onclick="rentOn()">Rent</li>
+            <li id="l3" onclick="buyOn()">Buy</li>
+            <li id="l4" onclick="sellOn()">Sell</li>
           </ul>
         </div>
     </div>
-
+                        <!-- Top Right (Favorite,notification,profile)-->
     <div class="h3">
-        <div><img src="icons8-heart-50.png"></div>
-        <div><img src="icons8-notification-50.png"></div>
-        <div onclick="userProfileOn()"><img id="userpic" src="icons8-male-user-50.png"></div>
+        <div title="favorites"><img src="icons8-heart-50.png"></div>
+        <div title="notifications" id="notifications1" onclick="notificationsOn()" onmouseover="overNotification()" ><img src="icons8-notification-50.png"></div>
+        <div title="my profile" onclick="userProfileOn()"><img id="userpic" src="icons8-male-user-50.png"></div>
     </div>
  </header> 
- 
+
+ <!-- BODY -->
  <body>  
- 
+                        <!-- Second header (Search, findAgent,aboutUs)-->                 
 <section id="head2">
    <div id="s"><p>Search</p><img id="h2ia" src="icons8-search-50.png"></div>
    <p class="ph" style="color: white;border-left: 1px solid rgb(212, 212, 212); border-right: 1px solid rgb(210, 210, 210) ;">Find an Agent</p>
    <p class="ph2">About Us</p>
 </section>
-
+                        <!-- Left side pop up -->
 <div class="pop" id="pop" onclick="sideOn()">
 <img src="icons8-menu-48.png">
 </div>
 
  <section id="main">
-
+                        <!-- Left side filter (price,type,location)-->
  <div id="left">
     <div class="x" onclick="sideOff()"><img id="close" src="icons8-close-64.png"></div>
     <div class="lefta">
@@ -58,11 +59,12 @@
         <div id="s4" class="search"><img src="icons8-location-50.png"><p>midrand, SA</p></div>
     </div>
  </div>
-
- <div id="right">
+                      <!-- Right side (property section)-->
+ <div id="right">                                             <!--Property results -->
     <div class="righth"><p><span style="font-weight: bold; color: rgb(6, 79, 43); color: orangered;">175 results</span> <span class="midrand">in midrand, SA</span></p></div>
+                     <!-- inner section with property-->
     <div class="righta">
-      
+ <!--///////////////////////////////////////////////////////////////////////////////////////////// One of many Properties -->     
        <div class="rightaa" id="rightaa">
         <div class="r1" id="r1"></div>
          <div class="r2">
@@ -74,7 +76,7 @@
             <h1>R6,250 p/m</h1> <p>3025 county highway<br>nochester. It 1404L</p>
          </div>
        </div>
-
+<!--/////////////////////////////////////////////////////////////////////////////////////////////-->
        <div class="rightaa" id="rightaa">
         <div class="r1" id="r2"></div>
          <div class="r2">
@@ -158,8 +160,11 @@
              <h1>R1,950 674 for sale</h1> <p>3025 county highway<br>nochester. It 1404L</p>
           </div>
         </div>
+                           <!-- Footer -->
        <footer>
+                              <!-- Top part-->                  
          <div class="top">
+                                  <!-- Left -->
             <div class="t1">
                <h1 style="color: white;">South Africa</h1>
                <ul>
@@ -174,16 +179,22 @@
                   <li>Western Cape</li>
                </ul>
             </div> 
+                                  <!-- Middle -->
             <div class="t2">
                <p>At <span class="rr">R&R Homes</span> we help you find the perfect place for you</p>
             </div>
+                                  <!-- Right -->
             <div class="t3">
                <img src="SA.PNG">
             </div>
          </div>
+                           <!-- bottom part -->
          <div class="bottom">
-            <div class="b1"><img src="icons8-real-estate-48.png"><p>R&R Homes<span style="font-size: 80%;">&copy;copyright 2025</span></p></div>
+                                 <!-- R&R Symbol -->
+            <div class="b1"><img src="icons8-real-estate-48.png"><p>R&R Homes <span style="font-size: 80%;">&copy;copyright 2025</span></p></div>
+                                 <!-- Contact icons -->
             <div class="b2">
+               <img src="icons8-mail-50.png">
                <img src="icons8-whatsapp-50.png">
                <img src="icons8-instagram-50.png">
                <img src="icons8-call-50-2.png">
@@ -194,14 +205,37 @@
        </footer>  
     </div>
  </div>
-
+                         <!-- Right User profile (User information)-->
  <div class="profile" id="profile">
    <div class="x" onclick="userProfileOff()"><img id="close" src="icons8-close-64.png"></div>
-   <div class="info"></div>
+   <div class="name">
+     <div class="inProf">
+     <p>RR</p>
+     </div>
+     <h1>Rotenda Ramugondo</h1> 
+     <p>+27 913 364 80</p>
+     <p>rotenda.ra@yahoo.com</p>
+  </div>
+  <div class="mid">
+     <div class="fav"><img src="heart.png"><p>My favourites</p></div>
+     <div class="rate"><div class="ratepic"><img onclick="rateLike()" id="like" src="like.png"><img onclick="rateUnLike()" id="Unlike"  src="unlike.png"></div><p>Rate us</p></div>
+  </div>
+  <div class="logout">
+     <button type="button">Log out</button>
+  </div>
+ </div>
+
+ <div class="notification" id="notifications">
+   <div class="x" onclick="notificationsOff()"><img id="close" src="icons8-close-64.png"></div>
+   <div class="not">
+      <img src="icons8-notification-50.png">
+      <p>No notifications</p>
+   </div>
  </div>
 
  </section>  
 
+                       <!-- Js div show up animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init({

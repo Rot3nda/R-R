@@ -39,7 +39,7 @@
  <body>  
                         <!-- Second header (Search, findAgent,aboutUs)-->                 
 <section id="head2">
-   <div id="s"><input id="searchBar" type="text" value="Search"><img id="h2ia" src="icons8-search-50.png"></div>
+   <div id="s"><input id="searchBar" type="search" value="Search"><img id="h2ia" src="icons8-search-50.png"></div>
    <p class="ph" style="color: white;border-left: 1px solid rgb(212, 212, 212); border-right: 1px solid rgb(210, 210, 210) ;">Find an Agent</p>
    <p class="ph2">About Us</p>
    <button type="button">Log In</button>
@@ -56,33 +56,33 @@
     <form class="lefta">
         <div class="search"><p>Max price</p><div>
          <select id="location" name="location">
-         <option value="volvo">select max..</option>
-         <option value="saab">R2000</option>
-         <option value="fiat">R4000</option>
-         <option value="audi">R6000</option>
-         <option value="volvo">R8000</option>
-         <option value="saab">R10 000</option>
-         <option value="fiat">R12 000</option>
-         <option value="audi">R14 000+</option>   
+         <option>select</option>
+         <option>R2000</option>
+         <option>R4000</option>
+         <option>R6000</option>
+         <option>R8000</option>
+         <option>R10 000</option>
+         <option>R12 000</option>
+         <option>R14 000+</option>   
          </select></div></div>
 
         <div class="search"><p>Type</p><div><select id="location" name="location">
-         <option value="volvo">select...</option>
-         <option value="saab">Apartment</option>
-         <option value="fiat">House</option>
+         <option>select</option>
+         <option>Apartment</option>
+         <option>House</option>
        </select></div></div>
 
         <div class="search"><p>Location</p><div>
          <select id="location" name="location">
-         <option value="volvo">select province..</option>
-         <option value="saab">Gauteng</option>
-         <option value="fiat">Free state</option>
-         <option value="audi">Mpumalanga</option>
-         <option value="volvo">Limpopo</option>
-         <option value="saab">Nothern cape</option>
-         <option value="fiat">Easten cape</option>
-         <option value="audi">North west</option>   
-         <option value="volvo">Kwazulu-natal</option>  
+         <option>select</option>
+         <option>Gauteng</option>
+         <option>Free state</option>
+         <option>Mpumalanga</option>
+         <option>Limpopo</option>
+         <option>Nothern cape</option>
+         <option>Easten cape</option>
+         <option>North west</option>   
+         <option>Kwazulu-natal</option>  
        </select></div></div>
         <div id="s4" class="search"><img src="icons8-location-50.png"><p>midrand, SA</p></div>
     </form>
@@ -94,11 +94,11 @@
     <div class="righta">
  <!--///////////////////////////////////////////////////////////////////////////////////////////// One of many Properties -->     
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r1"></div>
+        <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
-            <div><img src="icons8-bed-50.png">2 Beds</div>
-            <div><img src="icons8-bath-50.png">2 Baths</div>
-            <div><img src="icons8-room-50.png">3.5 Ft</div>
+            <div><img src="icons8-bed-50.png"><p id="bed">2 Beds</p></div>
+            <div><img src="icons8-bath-50.png"><p id="bath">2 Baths</p></div>
+            <div><img src="icons8-room-50.png"><p id="ft">3.5 Ft</p></div>
         </div>
          <div class="r3">
             <h1>R6,250 p/m</h1> <p>3025 county highway<br>nochester. It 1404L</p>
@@ -106,7 +106,7 @@
        </div>
 <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r2"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
             <div><img src="icons8-bed-50.png">4 Beds</div>
             <div><img src="icons8-bath-50.png">2 Baths</div>
@@ -118,7 +118,7 @@
        </div>
 
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r3"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
             <div><img src="icons8-bed-50.png">Beds</div>
             <div><img src="icons8-bath-50.png">Baths</div>
@@ -130,7 +130,7 @@
        </div>
     
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r4"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
             <div><img src="icons8-bed-50.png">Beds</div>
             <div><img src="icons8-bath-50.png">Baths</div>
@@ -142,7 +142,7 @@
        </div>
 
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r5"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
             <div><img src="icons8-bed-50.png">Beds</div>
             <div><img src="icons8-bath-50.png">Baths</div>
@@ -154,7 +154,7 @@
        </div>
 
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r6"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
             <div><img src="icons8-bed-50.png">Beds</div>
             <div><img src="icons8-bath-50.png">Baths</div>
@@ -166,7 +166,7 @@
        </div>
 
        <div class="rightaa" id="rightaa">
-        <div class="r1" id="r7"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
          <div class="r2">
             <div><img src="icons8-bed-50.png">Beds</div>
             <div><img src="icons8-bath-50.png">Baths</div>
@@ -178,7 +178,7 @@
        </div>
 
        <div class="rightaa" id="rightaa">
-         <div class="r1" id="r2"></div>
+         <div class="r1" id="r1"><div class="r1a"><img onclick="heartOn()" class="heart1" id="heart1" src="icons8-heart-50.png"><img onclick="heartOff()" class="heart2" id="heart2" src="icons8-heart-48-3.png"></div></div>
           <div class="r2">
              <div><img src="icons8-bed-50.png">4 Beds</div>
              <div><img src="icons8-bath-50.png">2 Baths</div>

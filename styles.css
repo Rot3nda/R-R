@@ -156,8 +156,8 @@ header{
 }
 
 #s4{
-    background-color: rgb(110, 189, 110);
-    background-color: rgb(208, 127, 98);
+    
+    background-color: rgb(193, 115, 87);
     width: 55%;
     height: 6vh;
     display: flex;
@@ -249,10 +249,11 @@ header li{
 header li:hover{
     height: 5vh;
     font-weight: bolder;
-    background-color: orangered;
+    background-color: rgb(211, 57, 0);
     border-radius: 20px;
     border-bottom: 2px solid orangered;
     border-top: 2px solid orangered;
+    color: white;
 }
 
 .l1{
@@ -335,6 +336,33 @@ header ul{
     align-items: center;
     justify-content: center;
 }
+
+.r1a{
+    width: 1.7rem; 
+    height: 1.7rem;
+    float: left; 
+    border-radius: 100%; 
+    background-color: rgb(255, 255, 255); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 1px 1px 1px 1px black;
+    position: relative;
+    top: 6.5vh;
+}
+.r1a:hover{
+    background-color: rgb(107, 255, 121);
+}
+
+.heart1,.heart2{
+    width: 15px;
+    height: 15px;
+}
+
+.heart2{
+    display: none;
+}
+
 .midrand{
     font-size: 1.1rem;
     color: rgb(82, 82, 82);
@@ -344,9 +372,7 @@ header ul{
    width: 90%;
    height: 100%;
    border-radius: 20px;
-   border: 0px solid transparent;
    text-align: center;
-   color: rgb(0, 0, 0);
    border: 0px solid transparent;
 }
 
@@ -386,6 +412,9 @@ header ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+    display: flex;
+    justify-content: left;
+    align-items: end;
 }
 #r1{
     background-image: url(pexels-binyaminmellish-1396132.jpg);
@@ -697,7 +726,9 @@ footer{
     width: 23px;
     height: 23px;
     margin-right: 3%;
+
 }
+
 
 ::-webkit-scrollbar{
     width: 10px;

@@ -29,6 +29,7 @@ const userProfileOn=()=>{
   for(let i = 0; i < items.length; i++) {
     items[i].style.width="25rem";
   }
+  notificationsOff();
 }
 
 const userProfileOff=()=>{
@@ -124,9 +125,19 @@ function notificationsOff(){
 function notificationsOn(){
   document.getElementById("notifications").style.display="block";
   document.getElementById("notifications1").style.backgroundColor="rgb(255, 108, 54)";
+  userProfileOff();
 }
 
 function overNotification(){
   document.getElementById("notifications1").style.backgroundColor="(215, 215, 215)";
 }
 
+function heartOn(){
+  document.getElementById("heart1").style.display="none";
+  document.getElementById('heart2').style.display="block";
+}
+
+function heartOff(){
+  document.getElementById('heart2').style.display="none";
+  document.getElementById('heart1').style.display="block";
+}

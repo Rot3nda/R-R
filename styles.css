@@ -35,6 +35,7 @@ header{
     justify-content: center;
     align-items: center;
     display: none;
+    z-index: 1000;
 }
 .pop img{
     width: 1.3rem;
@@ -858,8 +859,11 @@ footer{
 
 @media screen and (max-width:795px){
     .rightaa{
-        width: 25rem;
-        height: 50vh;
+        width: 24rem;
+        height: 48vh;  
+    }
+    .rightaa:hover{
+      transform: scale(1);
     }
 }
 

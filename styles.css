@@ -859,8 +859,8 @@ footer{
 
 @media screen and (max-width:795px){
     .rightaa{
-        width: 24rem;
-        height: 48vh;  
+        width: 20rem;
+        height: 44vh;  
     }
     .rightaa:hover{
       transform: scale(1);

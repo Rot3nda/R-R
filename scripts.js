@@ -135,9 +135,11 @@ function overNotification(){
 function heartOn(){
   document.getElementById("heart1").style.display="none";
   document.getElementById('heart2').style.display="block";
+  document.getElementById('r1a').style.backgroundColor="pink";
 }
 
 function heartOff(){
   document.getElementById('heart2').style.display="none";
   document.getElementById('heart1').style.display="block";
+  document.getElementById('r1a').style.backgroundColor="white";
 }

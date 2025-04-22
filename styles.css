@@ -854,6 +854,12 @@ footer{
     .ph,.ph2{
         font-size: 0.5rem;
     }
-   
+}
+
+@media screen and (max-width:795px){
+    .rightaa{
+        width: 25rem;
+        height: 50vh;
+    }
 }
 

@@ -966,6 +966,7 @@ footer{
     #rightaa{
         width: 20rem;
         height: 38vh;
+        margin-top: 5%;
     }
     .wapp{
         display: flex;

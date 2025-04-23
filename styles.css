@@ -715,43 +715,37 @@ footer{
 
 }
 
-.bottomMenu{
-    max-width: 100%;
-    height: 8vh;
+.wapp{
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 100%;
+    background-color: rgb(20, 42, 20);
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: rgb(24, 50, 33);
-    justify-content: center;
+    bottom: 3%;
+    left: 3%;
+    display: flex;
     align-items: center;
+    justify-content: center;
     display: none;
 }
-
-.bottomMenu div{
-   width: 3.1rem;
-   height: 3.1rem;
-   border-radius: 100%;
-   background-color: rgb(12, 23, 12);
-   margin-right: 8%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.wapp img{
+    width: 31px;
+    height: 31px;
 }
-
-.bottomMenu div img{
-    width: 30px;
-    height: 30px;
- }
- .menuB{
-    width: 26px;
-    height: 30px;
- }
- .userB{
-    width: 20px;
-    height: 20px;
- }
-
+.m{
+    width: 3.1rem;
+    height: 3.1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 35, 18);
+    display: none;
+    border-radius: 100%;
+    margin-right: 3.5%;
+}
+.m img{
+    width: 25px;
+    height: 23px;
+}
 
 ::-webkit-scrollbar{
     width: 10px;
@@ -897,6 +891,9 @@ footer{
     header{
         background-color: rgb(24, 50, 33);
         height: 9vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .h1{
         width: 50%;
@@ -946,14 +943,16 @@ footer{
     }
     .righta{
         width: 100%;
-        height: 83vh;
-      
+        height: 91vh;
     }
     #rightaa{
         width: 19rem;
         height: 39vh;
     }
-    .bottomMenu{
+    .wapp{
+        display: flex;
+    }
+    .m{
         display: flex;
     }
 

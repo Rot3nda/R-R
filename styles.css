@@ -681,27 +681,6 @@ footer{
     transform: scale(1.5);
 }
 
-.logout{
-    width: 100%;
-    height: 8vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logout button{
-    width: 35%;
-    height: 4.5vh;
-    background-color: rgb(27, 27, 55);
-    color: white;
-    border-radius: 20px;
-    translate: transform 3.5s ease;
-}
-
-.logout button:hover{
-    transform: scale(1.04);
-}
-
 .notification{
     width: 20rem;
     height: 25vh;
@@ -859,11 +838,57 @@ footer{
 
 @media screen and (max-width:795px){
     .rightaa{
-        width: 20rem;
+        width: 23rem;
         height: 44vh;  
     }
     .rightaa:hover{
       transform: scale(1);
     }
+    #left{
+        width: 35%;
+    }
+    #right{
+        width: 65%;
+    }
 }
 
+@media screen and (max-width:760px){
+    header{
+        background-color: rgb(35, 65, 35);
+    }
+    .h2{
+       display: none;
+    }
+    .h3{
+      display: none;
+    }
+    #head2{
+        display: none;
+    }
+    .righth{
+        display: none;
+    }
+
+    #left{
+        display: none;
+    }
+
+    #profile{
+       display: none;
+    }
+ 
+    .rightaa:hover{
+      transform: scale(1);
+    }
+    #left{
+        width: 35%;
+    }
+    #right{
+       width: 100%;
+    }
+    #rightaa{
+        width: 19rem;
+        height: 39vh;
+    }
+
+}

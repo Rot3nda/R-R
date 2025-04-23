@@ -12,6 +12,12 @@ const sideOn=()=>{
     document.getElementById('profile').style.display="none"; 
 }
 
+const sideOnMobile=()=>{
+  document.getElementById('left').style.display="block";
+  document.getElementById('left').style.width="100%";
+  document.getElementById('right').style.display="none"; 
+}
+
 const userProfileOn=()=>{
   document.getElementById('pop').style.display="flex";
   document.getElementById('left').style.display="none";

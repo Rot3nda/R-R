@@ -941,6 +941,7 @@ footer{
 
     #left{
         display: none;
+        width: 100%;
     }
 
     #profile{

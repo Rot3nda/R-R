@@ -739,6 +739,7 @@ footer{
     display: flex;
     justify-content: right;
     align-items: center;
+    display: none;
 }
 .m,.sr{
     width: 3rem;
@@ -963,10 +964,14 @@ footer{
         height: 91vh;
     }
     #rightaa{
-        width: 19rem;
-        height: 39vh;
+        width: 18rem;
+        height: 38vh;
+        margin: 5%;
     }
     .wapp{
+        display: flex;
+    }
+    .mc{
         display: flex;
     }
     .m,.sr{

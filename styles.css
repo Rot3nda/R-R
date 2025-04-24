@@ -1004,7 +1004,7 @@ footer{
     .top{
         flex-direction: column;
         height: fit-content;
-        background-color: rgb(17, 31, 17);
+        background-color: rgb(20, 37, 24);
     }
     .t1,.t2,.t3{
         width: 100%;

@@ -824,7 +824,7 @@ footer{
     border-radius: 20px;
     background-color: rgb(34, 56, 34);
     color: white;
-    border: 2px solid rgb(0, 156, 0);
+    box-shadow: 2px 2px 2px 2px rgb(71, 107, 71);
 }
 .mobileLocation{
     justify-content: left;

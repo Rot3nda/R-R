@@ -769,8 +769,8 @@ footer{
     display: none;
 }
 .mobileBack{
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 100%;
     background-color: rgb(152, 255, 152);
     border: 2px solid rgb(27, 55, 27);
@@ -780,8 +780,8 @@ footer{
     margin: 2% 2%;
 }
 .mobileX{
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 .mobileM{
     margin-top: 5%;

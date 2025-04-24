@@ -830,6 +830,10 @@ footer{
     .h2a li{
         height: 5vh;
     }
+    .b1,.b2{
+        width: 50%;
+        justify-content:center;
+       }
 }
 
 
@@ -895,6 +899,13 @@ footer{
     }
     #right{
         width: 65%;
+    }
+    .bottom{
+        flex-direction: column-reverse;  
+        height: fit-content;
+    }
+    .b1,.b2{
+        width: 100%;
     }
 }
 
@@ -987,4 +998,26 @@ footer{
         right: 1%;
        }
     
+}
+
+@media screen and (max-width:495px){
+    .top{
+        flex-direction: column;
+        height: fit-content;
+        background-color: rgb(17, 31, 17);
+    }
+    .t1,.t2,.t3{
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .t1{
+        display: flex;
+    }
+    .t2 p{
+        padding-left:10%;
+        padding-right: 10%;
+    
+    }
 }

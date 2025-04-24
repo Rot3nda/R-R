@@ -854,6 +854,10 @@ footer{
     height: 18px;
     margin-right: 4%;
 }
+.buyy{
+    width: 30px;
+    height: 30px;
+}
 
 ::-webkit-scrollbar{
     width: 10px;
@@ -1134,6 +1138,6 @@ footer{
     .rr{
         font-size: 1.3rem;
     }
-
+     
     
 }

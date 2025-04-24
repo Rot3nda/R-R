@@ -1001,11 +1001,6 @@ footer{
 }
 
 @media screen and (max-width:495px){
-    header{
-        position: fixed;
-        width: 100%;
-        z-index: 1001;
-    }
     .top{
         flex-direction: column;
         height: fit-content;

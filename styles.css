@@ -1113,6 +1113,7 @@ footer{
     .t1{
         display: flex;
         flex-direction: column;
+        border-bottom: 1px solid green;
     }
     .t1 ul{
         width: 100%;

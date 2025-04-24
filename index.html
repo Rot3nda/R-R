@@ -34,9 +34,10 @@
         <div id="notifications1" onclick="notificationsOn()" onmouseover="overNotification()" ><img src="icons8-notification-50.png"></div>
         <div onclick="userProfileOn()"><img id="userpic" src="icons8-male-user-50.png"></div>
     </div>
+                        <!-- mobile top right-->
 <div class="mc">
    <div class="sr" onclick="sideOnMobile()"><img src="icons8-search-50-2.png"></div>
-    <div class="m"><img src="icons8-menu-50.png"></div>
+    <div class="m" onclick="mobileMenuOn()"><img src="icons8-menu-50.png"></div>
    </div>
  </header> 
 
@@ -271,6 +272,21 @@
 
 
  </section>  
+
+ <section id="mobileMenu">
+    <div class="mobileBack" id="mobileBack" onclick="mobileMenuOff()"><img class="mobileX" src="icons8-close-64.png"></div>
+    <div class="mobileM">menu</div>
+    <div class="mobileMain">
+      <ul>
+         <li><img src="icons8-male-user-50.png">My profile</li>
+         <li><img src="icons8-heart-50.png">Favorite</li>
+      </ul>
+    </div>
+    <div class="mobileBottom">
+      <div class="mobileLogin">Log In</div>
+    <div class="mobileLocation"><img src="icons8-location-50.png">South Africa</div>
+    </div>
+ </section>
 
                        <!-- Js div show up animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

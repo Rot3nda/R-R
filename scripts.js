@@ -137,3 +137,11 @@ function heartOff(){
   document.getElementById('heart1').style.display="block";
   document.getElementById('r1a').style.backgroundColor="white";
 }
+
+function mobileMenuOff(){
+  document.getElementById('mobileMenu').style.display="none";
+}
+
+function mobileMenuOn(){
+  document.getElementById('mobileMenu').style.display="block";
+}

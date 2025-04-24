@@ -952,6 +952,12 @@ footer{
        }
 }
 
+@media screen and (max-width:1024px){
+    .profile{
+        border-radius: 0px;
+    }
+}
+
 
 @media screen and (max-width:990px){
     .h3 div{
@@ -1113,7 +1119,9 @@ footer{
         top: 5.4vh;
         right: 1%;
        }
-    
+    .pop{
+        display: none;
+    }
 }
 
 @media screen and (max-width:495px){

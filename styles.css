@@ -138,6 +138,7 @@ header{
 .search div{
     margin: 5px auto;
     background-color: white;
+    background-color: transparent;
     color: black;
     border-radius: 20px;
     width: 60%;

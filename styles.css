@@ -1035,7 +1035,7 @@ footer{
 @media screen and (max-width:760px){
     header{
         background-color: rgb(24, 50, 33);
-        height: 10vh;
+        height: 11vh;
         display: flex;
         justify-content: space-between;
         align-items: center;

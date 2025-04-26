@@ -1147,24 +1147,17 @@ footer{
         flex-direction: column;
     }
     .t1 ul{
-        width: 100%;
+        width: 90%;
         padding:2rem;
         margin: 0 auto;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        flex-wrap: wrap;
     }
     .t1 ul li{
         display: inline-flex;
         margin: 5px;
     }
-    .t2 p{
-        padding-left:10%;
-        padding-right: 10%;
-    
+    .t3{
+        margin-bottom: 7%;
     }
-    .rr{
-        font-size: 1.3rem;
-    }
-     
     
 }

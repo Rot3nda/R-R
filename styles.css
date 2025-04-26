@@ -1147,10 +1147,10 @@ footer{
         flex-direction: column;
     }
     .t1 ul{
-        width: 90%;
-        padding:2rem;
+        width: 90%; 
         margin: 0 auto;
         flex-wrap: wrap;
+        padding: 2.5rem;
     }
     .t1 ul li{
         display: inline-flex;

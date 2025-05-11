@@ -776,7 +776,7 @@ footer{
 
 .mobileunder{
     width: 100%;
-    height: 6vh;
+    height: 8vh;
     background-color: rgb(24, 50, 33);
     color: white;
     margin: 0px;
@@ -1058,14 +1058,16 @@ footer{
 @media screen and (max-width:760px){
     header{
         background-color: rgb(24, 50, 33);
-        height: 11vh;
+        height: 9vh;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin: 0;
+        align-items:center;
+        font-size: 3.5rem;
     }
     .mobileunder{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .h1{
         width: 50%;

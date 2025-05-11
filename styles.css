@@ -796,6 +796,7 @@ footer{
     border-radius: 20px;
     padding: 1% 6%;
     border-top: 1px solid orangered;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
 }
 
 #mobileMenu{

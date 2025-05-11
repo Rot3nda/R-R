@@ -794,7 +794,7 @@ footer{
     margin: 4% 2%;
     background-color:rgb(12, 24, 12);
     border-radius: 20px;
-    padding: 1% 6%;
+    padding: 1.5% 10%;
 }
 
 #mobileMenu{
@@ -1062,7 +1062,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items:center;
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .mobileunder{
         display: flex;

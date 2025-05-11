@@ -777,8 +777,10 @@ footer{
 .mobileunder{
     width: 100%;
     height: 6vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(24, 50, 33);
     color: white;
+    margin: 0px;
+    display: none;
 }
 .mobileunder ul{
     width: 100%;
@@ -789,8 +791,8 @@ footer{
     align-items: center;
 }
 .mobileunder ul li{
-    margin: 4%;
-    background-color: rgb(31, 53, 34);
+    margin: 4% 2%;
+    background-color:rgb(12, 24, 12);
     border-radius: 20px;
     padding: 1% 6%;
 }
@@ -1060,6 +1062,10 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 0;
+    }
+    .mobileunder{
+        display: block;
     }
     .h1{
         width: 50%;

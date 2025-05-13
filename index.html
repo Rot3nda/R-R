@@ -54,8 +54,8 @@
                         <!-- Second header (Search, findAgent,aboutUs)-->                 
 <section id="head2">
    <div id="s"><input id="searchBar" type="search" value="Search"><img id="h2ia" src="icons8-search-50.png"></div>
-   <p class="ph" style="color: white;border-left: 1px solid rgb(212, 212, 212); border-right: 1px solid rgb(210, 210, 210) ;">Find an Agent</p>
-   <p class="ph2">About Us</p>
+   <p onclick="onAgent()" class="ph" style="color: white;border-left: 1px solid rgb(212, 212, 212); border-right: 1px solid rgb(210, 210, 210) ; cursor:pointer;">Find an Agent</p>
+   <p style="cursor: pointer;" class="ph2">About Us</p>
 </section>
                         <!-- Left side pop up -->
 <div class="pop" id="pop" onclick="sideOn()">
@@ -301,6 +301,40 @@
       <div class="mobileLogin">Log In</div>
     <div class="mobileLocation"><img src="icons8-location-50.png">South Africa</div>
     </div>
+ </section>
+
+ <section id="findAgent">
+   <div style="float: right; position: relative; top: 2%; right: 1%;" class="x" onclick="offAgent()"><img id="close" src="icons8-close-64.png"></div>
+   <div class="h">
+      <h1>Find and connect with an agent</h1>
+      <p>We are at your service at all times</p>
+   </div>
+   <div class="us">
+
+      <div class="usd">
+         <div class="agentImage">
+            <img src="IMG_9184.jpg"/>
+         </div>
+         <div class="agentContact">
+         <p>Thenga Jacob Rofhiwa</p>
+         <p>rofhiwa@yahoo.com</p>
+         <p>+27 829 786 897</p>
+         </div>
+      </div>
+
+      <div class="usd">
+         <div class="agentImage">
+            <img src="IMG_9184.jpg"/>
+         </div>
+         <div class="agentContact">
+         <p>Thenga Jacob Rofhiwa</p>
+         <p>rofhiwa@yahoo.com</p>
+         <p>+27 829 786 897</p>
+         </div>
+      </div>
+   
+   </div>
+   
  </section>
 
                        <!-- Js div show up animation -->

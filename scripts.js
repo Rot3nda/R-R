@@ -145,3 +145,10 @@ function mobileMenuOff(){
 function mobileMenuOn(){
   document.getElementById('mobileMenu').style.display="block";
 }
+function offAgent(){
+  document.getElementById("findAgent").style.display="none";
+}
+function onAgent(){
+  document.getElementById("findAgent").style.display="block";
+ 
+}

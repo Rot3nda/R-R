@@ -30,7 +30,7 @@ Welcome to **R&R Homes**, a full-stack real estate web application designed to h
 - React
 
 **Backend:**
-- Node.js + Express
+- Django(Python)
 - MongoDB (NoSQL database)
 - Mongoose for schema modeling
 - JWT for secure authentication

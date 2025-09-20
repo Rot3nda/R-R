@@ -3,6 +3,7 @@ const sideOff=()=>{
     document.getElementById('left').style.display="none";
     document.getElementById('profile').style.display="none";
     document.getElementById('right').style.width="98%";
+    resizeParent(98); /////////////////////////////////////////////
 }
 
 const sideOn=()=>{
@@ -26,15 +27,32 @@ const userProfileOn=()=>{
   notificationsOff();
 }
 
+function resizeParent(percent) {
+  const parent = document.getElementById("right");
+  const children = document.querySelectorAll(".rightaa"); // only class here
+
+  // Set parent width
+  parent.style.width = percent + "%";
+
+  // Set child width based on parent size
+  const childWidth = percent === 98 ? "21.5rem" : "23rem";
+
+  // Apply to each child
+  children.forEach(child => {
+    // Only apply to children, not the parent (which also has class "right")
+    if (child !== parent) {
+      child.style.width = childWidth;
+    }
+  });
+}
+
+
 const userProfileOff=()=>{
   document.getElementById('pop').style.display="flex";
   document.getElementById('left').style.display="none";
   document.getElementById('right').style.width="98%";
   document.getElementById('profile').style.display="none";
-  let items = document.getElementsByClassName("rightaa");
-  for(let i = 0; i < items.length; i++) {
-   // items[i].style.width="21rem";
-  }
+  resizeParent(98); /////////////////////////////////////////////
 }
 
 function allOn(){  

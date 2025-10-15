@@ -127,10 +127,11 @@ header{
     width: 90%;
     height: 10vh;
     background-color: rgb(24, 60, 40,0.9);
-    color: white;
+    color: rgb(255, 255, 255);
     border: 0.03px solid rgb(255, 182, 155);
     font-size: 1.1rem;
     transition: transform 1s ease;
+    border-radius: 10px;
 }
 .search p{
     padding-left: 5%;
@@ -141,7 +142,7 @@ header{
     background-color: transparent;
     color: black;
     border-radius: 20px;
-    width: 60%;
+    width: 100%;
     height: 3vh;
     display: flex;
     align-items: center;
@@ -341,29 +342,14 @@ header ul{
 .righth{
     width: 100%;
     height: 6vh;
+    margin: 0 auto;
     font-size: 1.8rem;
     padding-bottom: 1%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 
-.r1a{
-    width: 1.7rem; 
-    height: 1.7rem;
-    float: left; 
-    border-radius: 100%; 
-    background-color: rgb(255, 255, 255); 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    box-shadow: 1px 1px 1px 1px black;
-    position: relative;
-    top: 6.5vh;
-}
-.r1a:hover{
-    background-color: rgb(107, 255, 121);
-}
 
 .heart1,.heart2{
     width: 15px;
@@ -380,11 +366,13 @@ header ul{
 }
 
 #location{
-   width: 90%;
+   width: 50%;
    height: 100%;
    border-radius: 20px;
    text-align: center;
    border: 0px solid transparent;
+   margin: 6px;
+   border: 2px solid rgb(202, 255, 203);
 }
 
 #searchBar{
@@ -396,8 +384,8 @@ header ul{
 }
 
 .rightaa{
-    width: 23rem;
-    height: 42vh;
+    width: 22.5rem;
+    height: fit-content;
     margin: 2%;
     box-shadow: 1px 1px 10px 0px rgb(15, 15, 29);
     border-radius: 20px;
@@ -405,6 +393,7 @@ header ul{
     flex-direction: column;
     cursor: pointer;
     transition: transform 0.5s ease;
+    font-weight: bold;
 }
 
 .rightaa:hover{
@@ -412,8 +401,8 @@ header ul{
 }
 
 .r1{
-    width: 90%;
-    height: 25vh;
+    width: 95%;
+    height: 27vh;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 10px;
@@ -428,25 +417,25 @@ header ul{
     align-items: end;
 }
 #r1{
-    background-image: url(pexels-binyaminmellish-1396132.jpg);
+    background-image: url(../Resources/pexels-binyaminmellish-1396132.jpg);
 }
 #r2{
-    background-image: url(pexels-pixabay-259588.jpg);
+    background-image: url(../Resources/pexels-pixabay-259588.jpg);
 }
 #r3{
-    background-image: url(pexels-expect-best-79873-323775.jpg);
+    background-image: url(../Resources/pexels-expect-best-79873-323775.jpg);
 }
 #r4{
-    background-image: url(pexels-vladimirsrajber-28575436.jpg);
+    background-image: url(../Resources/pexels-vladimirsrajber-28575436.jpg);
 }
 #r5{
-    background-image: url(pexels-pixabay-280221.jpg);
+    background-image: url(../Resources/pexels-pixabay-280221.jpg);
 }
 #r6{
-    background-image: url(pexels-pixabay-259588.jpg);
+    background-image: url(../Resources/pexels-pixabay-259588.jpg);
 }
 #r7{
-    background-image: url(pexels-binyaminmellish-106399.jpg);
+    background-image: url(../Resources/pexels-binyaminmellish-106399.jpg);
 }
 
 .r2{
@@ -457,22 +446,38 @@ header ul{
     justify-content: center;
     align-items: center;
 }
-.r2 div{
-    width: 25%;
+.nn {
+    width: 30%;
     margin:0 1px;
     height: 5vh;
-    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
-.r2 div img{
-    margin: 4px;
-    width: 15px;
-    height: 15px;
+.nn img{
+    margin: 3%;
+    width: 20px;
+    height: 20px;
 }
+
+.pics{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.pics img{
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid rgb(30, 49, 40);
+}
+
 
 .r3{
     width: 95%;
@@ -499,6 +504,22 @@ header ul{
 
 .r3 p{
     font-size: 0.9rem;
+}
+
+.r1a{
+    width: 1.7rem; 
+    height: 1.7rem;
+    float: left; 
+    border-radius: 100%; 
+    background-color: rgb(255, 255, 255); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 1px 1px 1px 1px black;
+    margin-right: 5%;
+}
+.r1a:hover{
+    background-color: rgb(107, 255, 121);
 }
 
 footer{

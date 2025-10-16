@@ -132,6 +132,7 @@ header{
     font-size: 1.1rem;
     transition: transform 1s ease;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 32, 0);
 }
 .search p{
     padding-left: 5%;
@@ -206,7 +207,8 @@ header{
     height: 7vh;
     display: flex;
     align-items: center;
-    
+    border-left: 2px solid rgb(65, 103, 65);
+    border-right: 2px solid rgb(65, 103, 65);
 }
 .h2a ul li{
     cursor: pointer;
@@ -229,6 +231,7 @@ header{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: 2px dotted rgb(10, 116, 0);
 }
 
 .h3 div:hover{
@@ -372,7 +375,7 @@ header ul{
    text-align: center;
    border: 0px solid transparent;
    margin: 6px;
-   border: 2px solid rgb(202, 255, 203);
+   border: 2px solid rgb(0, 255, 119);
 }
 
 #searchBar{
@@ -384,7 +387,7 @@ header ul{
 }
 
 .rightaa{
-    width: 22.5rem;
+    width: 25rem;
     height: fit-content;
     margin: 2%;
     box-shadow: 1px 1px 10px 0px rgb(15, 15, 29);
@@ -402,7 +405,7 @@ header ul{
 
 .r1{
     width: 95%;
-    height: 27vh;
+    height: 25.5vh;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 10px;
@@ -477,7 +480,6 @@ header ul{
     border-radius: 5px;
     border: 2px solid rgb(30, 49, 40);
 }
-
 
 .r3{
     width: 95%;

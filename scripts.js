@@ -35,7 +35,7 @@ function resizeParent(percent) {
   parent.style.width = percent + "%";
 
   // Set child width based on parent size
-  const childWidth = percent === 98 ? "21.5rem" : "23rem";
+  const childWidth = percent === 98 ? "21.5rem" : "24.5rem";
 
   // Apply to each child
   children.forEach(child => {
